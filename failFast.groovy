@@ -12,5 +12,5 @@ node {
     error = e.toString()
   }
 }
-stage 'fail with error'
+stage 'failFast Success with error'
 echo "error: ${error}"
